@@ -7,7 +7,8 @@ if n > 100 or n < 1:
     if answer == "yes":
         print "THIS IS ALL AN ILLUSION"
     elif answer == "no":
-        print "Try to get it right next time!"
+        # tukaj bi rad vrinil neko zanko ki bi me vrnila na zecetek programa
+        print "Try to get it right this time!"
 else:
     for n in range(1, (n + 1)):
         if n % 5 == 0 and n % 3 == 0:
